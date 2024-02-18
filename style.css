@@ -25,7 +25,6 @@ body {
 }
 .cal-header {
   width: 300px;
-
   overflow-x: scroll;
   overflow-y: hidden;
 }

@@ -21,8 +21,8 @@
         </div>
         <div class="cal-body">
           <div class="circle grey-light">AC</div>
-          <div class="circle grey-light">+/-</div>
-          <div class="circle grey-light">%</div>
+          <div class="circle operator grey-light">+/-</div>
+          <div class="circle operator grey-light">%</div>
           <div class="circle orange">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -39,23 +39,24 @@
               />
             </svg>
           </div>
-          <div class="circle grey-dark">7</div>
-          <div class="circle grey-dark">8</div>
-          <div class="circle grey-dark">9</div>
-          <div class="circle orange">x</div>
-          <div class="circle grey-dark">4</div>
-          <div class="circle grey-dark">5</div>
-          <div class="circle grey-dark">6</div>
-          <div class="circle orange">-</div>
-          <div class="circle grey-dark">1</div>
-          <div class="circle grey-dark">2</div>
-          <div class="circle grey-dark">3</div>
-          <div class="circle orange">+</div>
-          <div class="circle grey-dark pill">0</div>
-          <div class="circle grey-dark">.</div>
-          <div class="circle orange">=</div>
+          <div class="circle number grey-dark">7</div>
+          <div class="circle number grey-dark">8</div>
+          <div class="circle number grey-dark">9</div>
+          <div class="circle operator orange" id="times">x</div>
+          <div class="circle number grey-dark">4</div>
+          <div class="circle number grey-dark">5</div>
+          <div class="circle number grey-dark">6</div>
+          <div class="circle operator orange" id="minus">-</div>
+          <div class="circle number grey-dark">1</div>
+          <div class="circle number grey-dark">2</div>
+          <div class="circle number grey-dark">3</div>
+          <div class="circle operator orange" id="plus">+</div>
+          <div class="circle number grey-dark pill">0</div>
+          <div class="circle grey-dark" id="dot">.</div>
+          <div class="circle orange" id="equalTo">=</div>
         </div>
       </div>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -34,6 +34,10 @@ body {
   font-size: 6rem;
   margin-bottom: 2rem;
   white-space: nowrap;
+  text-align: right;
+  scroll-snap-type: x mandatory;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
 .cal-body {
   display: grid;
